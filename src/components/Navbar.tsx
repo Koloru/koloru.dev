@@ -45,6 +45,7 @@ const Navbar = () => {
           className="rotate-12 hover:rotate-0"
         />
       </a>
+      
     </div>
   );
 };
