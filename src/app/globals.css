@@ -25,3 +25,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* styles.css */
+.clip-path-triangle {
+  clip-path: polygon(0% 50%, 100% 0, 100% 100%);
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+}
