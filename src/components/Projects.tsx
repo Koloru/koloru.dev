@@ -31,15 +31,15 @@ const Projects = () => {
         {data.map((e) => (
           <a
             href={e.link}
-            className="flex h-full min-h-[150px] w-full flex-col gap-2 rounded-md border-2 border-white p-4 hover:border-slate-800 hover:text-slate-800 "
+            className="group flex h-full min-h-[150px] w-full flex-col gap-2 rounded-md border-2 border-white p-4 hover:border-slate-800 hover:text-slate-800 "
           >
-            <h1 className="max-h-[100%] overflow-hidden text-clip whitespace-nowrap text-xl font-semibold">
+            <h1 className="max-h-[100%] overflow-hidden text-clip whitespace-nowrap text-lg font-semibold">
               {e.name}
             </h1>
             <p className="line-clamp-3 text-ellipsis text-sm">{e.desc}</p>
             <p className="ml-auto mt-auto flex gap-2 overflow-hidden">
               {e.tags.map((tag) => (
-                <p className="line-clamp-1 rounded-md bg-white p-1 text-sm text-main">
+                <p className="line-clamp-1 rounded-md p-1 text-xs group-hover:text-slate-800 ">
                   {tag}
                 </p>
               ))}
