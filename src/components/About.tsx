@@ -36,28 +36,28 @@ const About = () => {
           It's nice to meet you
         </h2>
 
-        <div className="mt-4 max-w-lg text-justify text-lg">
+        <div className="mt-4 max-w-lg text-justify text-lg phone:text-left">
           I'm a web developer based in <b>The Philippines</b>. I like to play around
           with technologies and try to build things with them.
         </div>
 
-        <div className="max-w-lg text-justify text-lg ">
+        <div className="max-w-lg text-justify text-lg phone:text-left">
           I mainly specialize in <b>Frontend Development</b> while also grasping
           backend concepts and technologies.
         </div>
 
-        <div className="max-w-lg text-justify text-lg">
+        <div className="max-w-lg text-justify text-lg phone:text-left">
           I love animals mainly dogs, <b>Anime</b> or <b>Japanese Culture</b> in general, and
           taking pictures of random surroundings that I come across. I sometimes
           play <b>Japanese Mahjong</b> so if you want to play hit me up too!
         </div>
-        <div className="max-w-lg text-justify text-lg">
+        <div className="max-w-lg text-justify text-lg phone:text-left">
           I sometimes play Japanese Mahjong so if you want to play hit me up
           too!🀄🀄
         </div>
 
         <a
-          className="pointer-events-auto mx-auto mt-8 cursor-pointer border-b pb-1 text-2xl font-bold hover:border-b-green-300 hover:text-green-300"
+          className="pointer-events-auto mx-auto mt-8 cursor-pointer border-b pb-1 text-2xl font-bold hover:border-b-green-300 hover:text-green-300 text-center phone:border-2"
           href="mailto:neilinfante120@gmail.com"
         >
           Let's have a conversation!

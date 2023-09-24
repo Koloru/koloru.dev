@@ -26,7 +26,7 @@ const Main = () => {
         initial={initial}
         animate={animate}
         transition={{ duration: 0.4, delay: 0.2, type: "spring" }}
-        className="text-6xl font-bold tracking-wider"
+        className="text-4xl md:text-6xl font-bold tracking-wider text-center"
       >
         Neil / Koloru
       </motion.h1>
@@ -34,7 +34,7 @@ const Main = () => {
         initial={initial}
         animate={animate}
         transition={{ duration: 0.4, delay: 0.4 }}
-        className="text-md text-center font-light"
+        className="md:text-md text-center font-light text-sm"
       >
         Frontend Developer who likes to take random pictures
         <p className="font-bold">Manila, Philippines</p>
@@ -43,7 +43,7 @@ const Main = () => {
         initial={initial}
         animate={animate}
         transition={{ duration: 0.4, delay: 0.5 }}
-        className={cn("mb-2 mt-6 text-2xl font-light capitalize")}
+        className={cn("mb-2 mt-6 text-2xl font-light capitalize text-center")}
       >
         I randomly make things on a whim.
       </motion.h2>

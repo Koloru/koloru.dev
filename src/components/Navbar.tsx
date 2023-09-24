@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="fixed z-50 flex flex-col items-center justify-center min-h-screen gap-6 pl-3 pr-2 border-r-2">
+    <div className="phone:w-full phone:bg-slate-900 phone:rounded-lg phone:p-4  fixed z-50 flex md:flex-col items-center justify-center md:min-h-screen gap-6 md:pl-3 md:pr-2 md:border-r-2">
       <Link href='/#top'>
         <NavItem
           text={"Home"}

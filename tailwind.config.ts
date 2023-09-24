@@ -16,6 +16,9 @@ const config: Config = {
       colors: {
         main: "rgb(247, 139, 131)",
       },
+      screens: {
+        'phone': {'max': '425px'}
+      }
     },
   },
   plugins: [require('@tailwindcss/line-clamp')],

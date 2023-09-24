@@ -25,7 +25,7 @@ export default function RootLayout({
         <Navbar />
         <a
           href="mailto:neilinfante120@gmail.com"
-          className="fixed right-5 top-5 z-50 block cursor-pointer font-light hover:text-red-300"
+          className="phone:hidden fixed right-5 top-5 z-50 block cursor-pointer font-light hover:text-red-300"
         >
           Email @
           <div className="block text-sm underline ">
