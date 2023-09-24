@@ -32,7 +32,7 @@ export default function RootLayout({
             neilinfante120@gmail.com
           </div>
         </a>
-        <div className="z-40 min-h-screen bg-red-400">{children}</div>
+        <div className="z-40 min-h-screen bg-main">{children}</div>
         <Spotlight />
       </body>
     </html>
