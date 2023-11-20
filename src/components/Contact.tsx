@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaTelegramPlane, FaList } from "react-icons/fa";
 
 const data = [
   {
@@ -19,7 +19,7 @@ const data = [
   {
     link: "https://t.me/Koloruuu",
     icon: <FaTelegramPlane />,
-  },
+  }
 ];
 
 const Contact = () => {
